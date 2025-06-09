@@ -6,6 +6,8 @@ import AdminPage from './pages/AdminPage';
 import FarmersPage from './pages/FarmersPage';
 import DriversPage from './pages/DriversPage';
 import ShopPage from './pages/ShopPage';
+import Footer from './components/Footer';
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState('dashboard');
@@ -78,6 +80,7 @@ function App() {
       <div className="container mt-4">
         {renderPage()}
       </div>
+      <Footer />
     </div>
   );
 }
