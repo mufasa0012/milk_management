@@ -1,0 +1,12 @@
+[
+  { "id": "F001", "name": "John Doe", "location": "Kiambu" },
+  { "id": "F002", "name": "Jane Smith", "location": "Murang'a" },
+  { "id": "F003", "name": "Paul Kim", "location": "Eldoret" },
+  { "id": "F004", "name": "Alice Mwangi", "location": "Nyeri" },
+  { "id": "F005", "name": "George Njoroge", "location": "Embu" },
+  { "id": "F006", "name": "Susan Karanja", "location": "Kericho" },
+  { "id": "F007", "name": "Michael Otieno", "location": "Kisumu" },
+  { "id": "F008", "name": "Grace Achieng", "location": "Homabay" },
+  { "id": "F009", "name": "Tom Muli", "location": "Machakos" },
+  { "id": "F010", "name": "Winnie Wambui", "location": "Nakuru" }
+]

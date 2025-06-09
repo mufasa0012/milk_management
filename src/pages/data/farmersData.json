@@ -1,0 +1,72 @@
+[
+  {
+    "id": "F001",
+    "name": "John Doe",
+    "location": "Village A",
+    "totalLitresThisMonth": 150.5,
+    "paymentStatus": "Paid"
+  },
+  {
+    "id": "F002",
+    "name": "Jane Smith",
+    "location": "Village B",
+    "totalLitresThisMonth": 120.3,
+    "paymentStatus": "Unpaid"
+  },
+  {
+    "id": "F003",
+    "name": "Peter Kariuki",
+    "location": "Village C",
+    "totalLitresThisMonth": 98.7,
+    "paymentStatus": "Paid"
+  },
+  {
+    "id": "F004",
+    "name": "Alice Wanjiku",
+    "location": "Village D",
+    "totalLitresThisMonth": 180.9,
+    "paymentStatus": "Unpaid"
+  },
+  {
+    "id": "F005",
+    "name": "Mohammed Ali",
+    "location": "Village E",
+    "totalLitresThisMonth": 200.1,
+    "paymentStatus": "Paid"
+  },
+  {
+    "id": "F006",
+    "name": "Grace Nyambura",
+    "location": "Village F",
+    "totalLitresThisMonth": 165.4,
+    "paymentStatus": "Paid"
+  },
+  {
+    "id": "F007",
+    "name": "Brian Otieno",
+    "location": "Village G",
+    "totalLitresThisMonth": 110.6,
+    "paymentStatus": "Unpaid"
+  },
+  {
+    "id": "F008",
+    "name": "Lucy Achieng",
+    "location": "Village H",
+    "totalLitresThisMonth": 175.0,
+    "paymentStatus": "Paid"
+  },
+  {
+    "id": "F009",
+    "name": "David Njoroge",
+    "location": "Village I",
+    "totalLitresThisMonth": 140.2,
+    "paymentStatus": "Unpaid"
+  },
+  {
+    "id": "F010",
+    "name": "Cynthia Mwikali",
+    "location": "Village J",
+    "totalLitresThisMonth": 130.8,
+    "paymentStatus": "Paid"
+  }
+]

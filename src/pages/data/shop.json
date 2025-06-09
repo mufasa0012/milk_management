@@ -1,0 +1,12 @@
+[
+  { "id": 1, "milkGiven": 50, "milkSold": 45, "cash": 900 },
+  { "id": 2, "milkGiven": 60, "milkSold": 58, "cash": 1160 },
+  { "id": 3, "milkGiven": 40, "milkSold": 35, "cash": 700 },
+  { "id": 4, "milkGiven": 30, "milkSold": 25, "cash": 500 },
+  { "id": 5, "milkGiven": 70, "milkSold": 65, "cash": 1300 },
+  { "id": 6, "milkGiven": 55, "milkSold": 50, "cash": 1000 },
+  { "id": 7, "milkGiven": 65, "milkSold": 60, "cash": 1200 },
+  { "id": 8, "milkGiven": 45, "milkSold": 40, "cash": 800 },
+  { "id": 9, "milkGiven": 35, "milkSold": 30, "cash": 600 },
+  { "id": 10, "milkGiven": 25, "milkSold": 20, "cash": 400 }
+]

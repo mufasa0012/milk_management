@@ -1,0 +1,92 @@
+[
+  {
+    "id": "D001",
+    "name": "Samuel Kamau",
+    "route": "Dandora",
+    "vehicleNumber": "KDA 219Q",
+    "tripsToday": 3,
+    "litresCollected": 450,
+    "litresDelivered": 440
+  },
+  {
+    "id": "D002",
+    "name": "James Otieno",
+    "route": "Mwiki",
+    "vehicleNumber": "KBX 321T",
+    "tripsToday": 2,
+    "litresCollected": 300,
+    "litresDelivered": 290
+  },
+  {
+    "id": "D003",
+    "name": "Peter Njuguna",
+    "route": "Gikambura",
+    "vehicleNumber": "KCU 883L",
+    "tripsToday": 1,
+    "litresCollected": 220,
+    "litresDelivered": 210
+  },
+  {
+    "id": "D004",
+    "name": "Faith Wambui",
+    "route": "Ruai",
+    "vehicleNumber": "KDG 103R",
+    "tripsToday": 2,
+    "litresCollected": 310,
+    "litresDelivered": 305
+  },
+  {
+    "id": "D005",
+    "name": "Mohamed Hussein",
+    "route": "Embakasi",
+    "vehicleNumber": "KCP 774S",
+    "tripsToday": 3,
+    "litresCollected": 480,
+    "litresDelivered": 470
+  },
+  {
+    "id": "D006",
+    "name": "Ann Achieng",
+    "route": "Kayole",
+    "vehicleNumber": "KBM 112P",
+    "tripsToday": 1,
+    "litresCollected": 190,
+    "litresDelivered": 185
+  },
+  {
+    "id": "D007",
+    "name": "George Mwangi",
+    "route": "Githurai",
+    "vehicleNumber": "KDH 889K",
+    "tripsToday": 2,
+    "litresCollected": 350,
+    "litresDelivered": 345
+  },
+  {
+    "id": "D008",
+    "name": "Lucy Wanjiru",
+    "route": "Pipeline",
+    "vehicleNumber": "KCW 500Q",
+    "tripsToday": 2,
+    "litresCollected": 290,
+    "litresDelivered": 285
+  },
+  {
+    "id": "D009",
+    "name": "Dennis Kiptoo",
+    "route": "Komarock",
+    "vehicleNumber": "KCH 918A",
+    "tripsToday": 1,
+    "litresCollected": 160,
+    "litresDelivered": 150
+  },
+  {
+    "id": "D010",
+    "name": "Beatrice Naliaka",
+    "route": "Umoja",
+    "vehicleNumber": "KDK 740Y",
+    "tripsToday": 3,
+    "litresCollected": 410,
+    "litresDelivered": 400
+  }
+]
