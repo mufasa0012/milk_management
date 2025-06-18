@@ -50,6 +50,7 @@ const FarmersPage = ({ individualReport, onGenerateReport }) => {
         backgroundPosition: 'center',
         color: 'black',
     };
+    
 
     return (
         <div style={pageStyle}>

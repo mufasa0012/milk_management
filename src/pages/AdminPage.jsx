@@ -22,6 +22,14 @@ const overlayStyle = {
 const AdminPage = ({ summary, onFetchAllFarmersReport, onFetchFinancialReport }) => {
   const [visibleSection, setVisibleSection] = useState(null);
   const toggleSection = (section) => setVisibleSection(prev => (prev === section ? null : section));
+const [farmerData, setFarmerData] = useState(farmersOverview);
+
+const handlePayFarmer = (id) => {
+  const updated = farmerData.map(f => 
+    f.id === id ? { ...f, paymentStatus: 'Paid' } : f
+  );
+  setFarmerData(updated);
+};
 
   return (
     <div style={pageStyle}>
@@ -70,15 +78,32 @@ const AdminPage = ({ summary, onFetchAllFarmersReport, onFetchFinancialReport })
                   <tr><th>ID</th><th>Name</th><th>Litres</th><th>Status</th><th>Action</th></tr>
                 </thead>
                 <tbody>
-                  {farmersOverview.map(f => (
-                    <tr key={f.id}>
-                      <td>{f.id}</td>
-                      <td>{f.name}</td>
-                      <td>{f.totalLitresThisMonth}</td>
-                      <td><span className={`badge bg-${f.paymentStatus === 'Paid' ? 'success' : 'secondary'}`}>{f.paymentStatus}</span></td>
-                      <td><button className="btn btn-sm btn-outline-info">View Report</button></td>
-                    </tr>
-                  ))}
+                 {farmerData.map(f => (
+  <tr key={f.id}>
+    <td>{f.id}</td>
+    <td>{f.name}</td>
+    <td>{f.totalLitresThisMonth}</td>
+    <td>
+      <span className={`badge bg-${f.paymentStatus === 'Paid' ? 'success' : 'secondary'}`}>
+        {f.paymentStatus}
+      </span>
+    </td>
+    <td>
+      <div className="d-flex gap-2">
+        <button className="btn btn-sm btn-outline-info">View Report</button>
+        {f.paymentStatus !== 'Paid' && (
+          <button
+            className="btn btn-sm btn-outline-success"
+            onClick={() => handlePayFarmer(f.id)}
+          >
+            Pay
+          </button>
+        )}
+      </div>
+    </td>
+  </tr>
+))}
+
                 </tbody>
               </table>
             </div>
